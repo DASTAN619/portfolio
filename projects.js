@@ -270,8 +270,8 @@ document.addEventListener("DOMContentLoaded", () => {
     projectsResumeBtn.addEventListener('click', async (e) => {
       e.preventDefault();
       
-      const pdfUrl = 'https://awsprojectpc11052025.s3.us-east-1.amazonaws.com/DeepakResumeFiles/DeepakMote_TechnicalBusinessAnalyst_CV.docx.pdf';
-      const fileName = 'DeepakMote_TechnicalBusinessAnalyst_CV.pdf';
+      const pdfUrl = 'Deepak_Mote_Resume.pdf';
+      const fileName = 'Deepak_Mote_Resume.pdf';
       
       try {
         // Show loading state
@@ -308,4 +308,5 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   console.log("All project features initialized successfully!");
+
 });
